@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {/* Add this rule to position the carousel behind the content */
+  .hero {
+    position: relative;
+  }
+  
+  .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the carousel behind the content */
+  }
+  
+  /* Add this rule to adjust the positioning of the content */
+  .content {
+    position: relative;
+    z-index: 1; /* Place the content above the carousel */
+    /* ... your other styles ... */
+  }
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: black;
+  background-image: url(C:\Users\Mohit\OneDrive\Desktop\.vscode\17520.jpg);
+
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(C:\Users\Mohit\Downloads\images.jpeg);
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  text-align-last: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.logo {
+  max-height: 60px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color:white;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: whitesmoke;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+}
+.btn:hover {
+  background: transparent;
+  border-color: black;
+  color:black;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.content .title {
+  color: #0a0a0a;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: white;
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 {
+  color:white;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color:black;
+}
+.content p {
+  width: 55%;
+  color:white;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+/* Add your existing CSS styles here */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-item {
+  flex: 1;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Additional styles for your modal content can be added here */
+.gallery {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+}
+nav{
+  background-color: black;
+  height: 90px;
+  font-size:x-large;
+  
+}
+
+body{
+  /* background-image: url("./wp11976290-interstellar-black-hole-wallpapers.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 780px;
+}
+
+.image {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image:hover img {
+  transform: scale(1.2);
+}
+
+.image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.image:hover:before {
+  opacity: 1;
+}
+
+.image:after {
+  content: attr(alt);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.image:hover:after {
+  opacity: 1;
+}
+
+.test-1
+{
+  background-color: black; 
+  background-image: url(hello.jpg);
+}
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.navbg{
+  background-color: rgba(0, 0, 0, 0.616);
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+}
+
+
+body{
+  /* width: 80%; */
+  /* margin: 25px auto; */
+  /* background-color: green; */
+}
+
+.hero-section{
+  display: flex;
+  flex-direction: column;
+  background-image: url("39610.jpg");
+  min-height: 780px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  /* opacity: 30%; */
+}
+
+
+.hero-header{
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 100px;
+  /* background-color: yellow; */
+  
+}
+
+.hero-intro{
+  background-color: rgba(0, 0, 0, 0.422);
+  margin-top:20px ;
+  color: white;
+  padding:30px 100px;
+  /* flex: 1; */
+}
+ul{
+  /* background-color: red; */
+  padding: 10px 10px 0px 20px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  margin: 20px auto ;
+  padding: 5px;
+  
+}
+
+.container-header{
+ 
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  /* background-color:white; */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 3px solid black; */
+}
+
+.container-header svg, .container i{
+  margin-right:10px ;
+  
+}
+
+.single-inner-container{
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* justify-content: center; */
+
+
+}
+
+.single-inner-inner-container{
+  display: flex;
+  flex-direction: column;
+  background-color: darkgrey;
+  color: black;
+  /* background-color: black; */
+  /* border-color: white; */
+  padding: 10px 20px;
+  width: fit-content;
+  max-width: 30%;
+  /* border: 2px solid lightgray; */
+
+  margin:5px;
+  cursor: pointer;
+}
+
+.single-inner-inner-container:hover{
+  color: white;
+  background-color: black;
+  transition: ease-in 0.5s;
+  transform: scale(1.0005);
+
+
+
+}
+
+.single-inner-inner-container-header{
+  font-size: 18px ;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.social-links-container{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
+
+.single-social-button{
+  height: 30px;
+  width: 30px;
+  /* background-color: red; */
+  /* padding: 5px; */
+  border-radius: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+  color: black;
+}
+.single-social-button:hover,.link:hover{
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 20px;
+  color: white;
+
+  
+}
+.link{
+  width: fit-content;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: white;
+  /* background-color: green; */
+  border-radius: 50px;
+  margin: 0px 10px;
+}
+
+.modalcontainer{
+  /* background-color: red; */
+  padding: 10px;
+
+  
+}
+
+
+
+.modalcontainer li{
+  background-color: #f7f7f7;
+  margin: 8px 0px;
+  list-style-type: none;
+  padding: 5px;
+  border-left: 5px solid black;
+
+}
+
+.modalcontainer ul{
+  padding: 0px;
+}
+.date{
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8x;
+  width: fit-content;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+.institution{
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+
+.work-points{
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 400px){
+  
+  
+}
