@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="product_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="transform.xsl" type="text/xsl"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Laptop</name>
+        <price>55.66</price>
+        <description>Powerful laptop with greate features</description>
+    </product>
+
+    <product>
+        <id>2</id>
+        <name>Monitor</name>
+        <price>30.99</price>
+        <description>Has 144hz refresh rate</description>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Smartphone</name>
+        <price>50.99</price>
+        <description>Portable and Easy</description>
+    </product>
+
+    <product>
+        <id>4</id>
+        <name>Headphones</name>
+        <price>12.99</price>
+        <description>Easy to use</description>
+    </product>
+
+    <product>
+        <id>5</id>
+        <name>Camera</name>
+        <price>15.33</price>
+        <description>High Resolution</description>
+    </product>
+
+    <product>
+        <id>6</id>
+        <name>Harddrive</name>
+        <price>30.99</price>
+        <description>Very powerful and fast</description>
+    </product>
+
+    <product>
+        <id>7</id>
+        <name>Graphics Card</name>
+        <price>50.44</price>
+        <description>Better Performance</description>
+    </product>
+
+    <product>
+        <id>8</id>
+        <name>Speaker</name>
+        <price>25.99</price>
+        <description>Better sound Quality</description>
+    </product>
+
+</products>
+  
