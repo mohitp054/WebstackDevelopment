@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="exam.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="transform.xsl" type="text/xsl"?>
+<JokesTable>
+    <Joke1>
+        <Category>Miscellaneous</Category>
+        <Jokes>Why dont scientists trust atoms? Because they make up everything!</Jokes>
+    </Joke1>
+    <Joke2>
+        <Category>Miscellaneous</Category>
+        <Jokes>Parallel lines have so much in common. Its a shame they'll never meet</Jokes>
+    </Joke2>
+    <Joke3>
+        <Category>Miscellaneous</Category>
+        <Jokes>I used to play piano by ear, but now i use my hands</Jokes>
+    </Joke3>
+    <Joke4>
+        <Category>Miscellaneous</Category>
+        <Jokes>Did you hear about the mthematician who's fraid of negative numbers? he'll stop at nothing to avoid them</Jokes>
+    </Joke4>
+    <Joke5>
+        <category>Miscellaneous</category>
+        <Jokes>What do you call a fish with no eyes? fsh</Jokes>
+    </Joke5>
+    <Joke6>
+        <Category>Miscellaneous</Category>
+        <Joke>What do you call a fish with no eyes? fsh</Joke>
+    </Joke6>
+    <Joke7>
+        <Category>Miscellaneous</Category>
+        <Joke>Why did the scarecrow win an award? Because he was outstanding in his field!</Joke>
+    </Joke7>
+</JokesTable>
