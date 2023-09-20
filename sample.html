@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Show Products</title>
+<style>
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+.button{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+th{
+    background-color: black;
+    color: white;
+    
+}
+table{
+    width: 100%;
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+select{
+    float:right;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+</style>
+</head>
+<body>
+  <h1><strong>LIBRARY</strong></h1>
+  <br>
+  <button class="button" id="showProducts">Show Products</button>
+  <div>
+    <br>
+      <input class="searchinput" id="searchbar" type="text" placeholder="Seach Books">
+      <button class="button" id="buttonfetch" onclick="searchresults()">Search</button>
+      <select id="selectbar">
+        <option value="nofilter" selected>No Filter</option>
+          <option value="price">Price</option>
+          <option value="name">Name</option>
+      </select>
+  </div>
+  <br>
+  <div id="productList">
+  </div>
+  <script src="sample1.js"></script>
+</body>
+</html>
